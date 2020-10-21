@@ -1,0 +1,7 @@
+/* pages/shipin/shipin.wxss */
+.top{
+  text-align: center;   /*文字居中*/
+  line-height: 120rpx;
+  color: rgb(27, 146, 156);
+  background-color: rgb(170, 225, 230);
+}

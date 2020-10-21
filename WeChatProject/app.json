@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/goodList/goodList",
+    "pages/my/my",
+    "pages/yufa/yufa",
+    "pages/shipin/shipin",
+    "pages/test/test",
+    "pages/logs/logs"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#48D1CC",
+    "navigationBarTitleText": "我的大程序",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icon/首页.png",
+      "selectedIconPath": "images/icon/点击首页.png"
+    },
+   {
+      "pagePath": "pages/goodList/goodList",
+      "text": "商品",
+      "iconPath": "images/icon/购物车.png",
+      "selectedIconPath": "images/icon/点击购物车.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "images/icon/订单.png",
+      "selectedIconPath": "images/icon/点击订单.png"
+    },
+    {
+      "pagePath": "pages/yufa/yufa",
+      "text": "语法",
+      "iconPath": "images/icon/文件夹点击.png",
+      "selectedIconPath": "images/icon/文件夹.png"
+    }
+  ],
+  "color":"#4682B4",
+  "selectedColor": "#4169E1"
+  
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

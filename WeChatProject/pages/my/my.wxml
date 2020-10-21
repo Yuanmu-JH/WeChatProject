@@ -1,0 +1,10 @@
+<!--pages/my/my.wxml-->
+<text class = "top">
+  哦吼~
+</text>
+<text class = "content">
+  哈喽呀~
+</text>
+<text>
+  普通的哦~
+</text>

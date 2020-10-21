@@ -1,0 +1,58 @@
+.top{
+  width: 100%;
+  height: 100rpx;
+  background-color: paleturquoise;
+  /* 让里面的内容水平排列 */
+  display: flex;
+  flex-direction: row;
+}
+
+.top_item{
+  /* 设置盒子 */
+  width: 25%;
+  height: 100rpx;
+  background-color: turquoise;
+  /* 设置内容 */
+  text-align: center;   /*文字居中*/
+  line-height: 100rpx;
+  color: aliceblue;
+}
+
+/* 设置效果 */
+.top_item:hover{
+  background-color: rgb(67, 135, 194);
+  color: aliceblue;
+}
+
+/* 内容区域设置 */
+.content{
+  width: 95%;
+  height: 410rpx;
+  background-color: aqua;
+  /* 盒子水平居中 */
+  margin: 0 auto;
+  margin-top: 30rpx;
+  /* 设置布局 */
+  display: flex;
+  flex-direction: row;
+}
+
+.content_item{
+  width: 350rpx;
+  height: 400rpx;
+  background-color: deepskyblue;
+}
+.content_item image{
+  width: 350rpx;
+  height: 320rpx;
+}
+
+.as{
+ margin-left: 12rpx;
+}
+
+.wenzi{
+  text-align: center;
+  line-height: 80rpx;
+  color: aliceblue;
+}

@@ -1,0 +1,34 @@
+<!--pages/yufa/yufa.wxml-->
+<view class="top">
+  {{title}}
+</view>
+
+<text>
+  {{msg}}
+</text>
+
+<view wx:for="{{student}}">
+  <!-- index是从0开始的 -->
+  {{index+1}}:{{item}}
+</view>
+
+<view wx:for="{{obj}}">
+  <text>
+    <!-- item是每一个的意思 -->
+    {{index}}:{{item}}
+  </text>
+</view>
+
+
+<view wx:for="{{students}}">
+  姓名:{{item.name}}
+  年龄:{{item.age}}
+  性别:{{item.sex}}
+</view>
+
+<view class="goodList">
+  <view class="items" wx:for="{{shangpin}}">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>

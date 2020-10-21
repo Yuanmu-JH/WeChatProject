@@ -1,0 +1,16 @@
+/* pages/my/my.wxss */
+text{
+ color:slateblue; 
+ font-size: 40px;
+}
+/* 类选择器 */
+.top{
+  color: cadetblue;
+  background-color: moccasin;
+  font-size: 36px;
+}
+
+.content{
+  color: dodgerblue;
+  font-size: 25px;
+}
